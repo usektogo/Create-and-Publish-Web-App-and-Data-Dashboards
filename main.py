@@ -15,3 +15,4 @@ Enjoy it! Because I enjoy it :)
 ''')
 
 st.write(df)
+st.line_chart(df)
