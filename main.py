@@ -1,3 +1,5 @@
+# app you need to run in shell
+
 import streamlit as st
 import pandas
 
@@ -17,6 +19,7 @@ Enjoy it! Because I enjoy it :)
 st.write(df)
 st.line_chart(df)
 st.area_chart(df)
+st.bar_chart(df)
 
 # you can add widget
 myslider = st.slider('Celsius')
